@@ -1,0 +1,533 @@
+/* Les idées me venant en tête à fur et à mesure, j'ai fais le style en css mais 
+sur un projet plus complexe j'aurais opté pour sass.
+J'aurais classé les fichiers sass par components et relié sur un seul fichier index sass */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-color: #f5f5f7;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.App h1 {
+  color: white;
+  text-align: center;
+}
+
+.App h2 {
+  background: linear-gradient(to right, #2a455f, #bdc3c7);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 60px 0px 60px 20px;
+  font-size: 30px;
+}
+
+.app-h1 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header du site  */
+.header-container {
+  text-align: center;
+  height: 3em;
+  width: 100%;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.header-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 1em;
+}
+
+.header-container ul li {
+  flex: 1;
+}
+
+.header-container ul li a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.header-container ul li a:hover {
+  color: #6e6e73;
+  font-weight: bold;
+  scale: 1.1;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-container .icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-container a {
+    display: none;
+  }
+
+  .header-container .icon {
+    display: block;
+    font-size: 1.5em;
+    color: #333;
+  }
+}
+
+/* banner du site  */
+.banner-div {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(45deg, #1e3c72, #3a7bd5);
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  color: white;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+}
+
+/* Présentation */
+.presentation-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.presentation-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.presentation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  animation: slideInFromRight 2s forwards;
+  opacity: 1;
+}
+
+.presentation-title {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.presentation-title span {
+  background: linear-gradient(to right, #949494, #d3d3d3);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.presentation-text {
+  color: #666;
+  line-height: 1.6;
+}
+
+.presentation-content-button {
+  width: 15em;
+  padding: 0.75em 1.5em;
+  margin: 2em;
+  border: none;
+  background: linear-gradient(45deg, #1e3c72, #3a7bd5);
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.presentation-content-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.presentation-content-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 1366px) {
+  .presentation-container {
+    flex-direction: row;
+  }
+
+  .presentation-image {
+    width: 30%;
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+
+  .presentation-content {
+    width: 70%;
+  }
+}
+
+/* Les expériences */
+.experience-container {
+  background-color: #f5f5f7;
+}
+
+.experience-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.experience-title {
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  color: #333;
+  font-weight: bold;
+}
+
+.experience-card-bloc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.experience-card {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-card-title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.experience-text {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+.experience-card button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 0.75em 1.5em;
+  border: none;
+  background: linear-gradient(45deg, #1e3c72, #3a7bd5);
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.experience-card button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Les formations */
+.studies-content {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.studies-card {
+  background-color: white;
+  margin: 0px 20px 20px 20px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex: 1;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 25em;
+}
+
+.studies-card:hover {
+  scale: 1.01;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.studies-card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #1e3c72, #3a7bd5);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.studies-card img {
+  width: 8em;
+  margin-top: 2em;
+}
+
+/* Mes loisirs */
+.hobbies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slider {
+  width: 80%;
+  max-width: 80em;
+}
+
+.slick-slide img {
+  display: inline-block !important;
+}
+
+.hobbies-card {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  min-height: 46em;
+  background: white;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hobbies-card img.card-img {
+  margin-top: 2em;
+  width: 19em;
+  max-width: 100%;
+  height: 20em;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.hobbies-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 25px;
+}
+
+.hobbies-card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #1e3c72, #3a7bd5);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hobbies-card-title img.title-img {
+  height: 40px;
+}
+
+.hobbies-text {
+  font-size: 1em;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .slick-slider {
+    /* height: 100%; */
+  }
+
+  .hobbies-card {
+    min-height: 76em;
+  }
+}
+
+/* Formulaire de contact */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[type="submit"] {
+  background: linear-gradient(45deg, #1e3c72, #3a7bd5);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 4px;
+  transition: background 2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background: linear-gradient(45deg, #3a7bd5, #1e3c72);
+}
+
+.form-message {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.form-message.visible {
+  opacity: 1;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Le footer */
+
+.footer-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #e0e0e0, #a9a9a9);
+}
+
+.footer-logo img {
+  cursor: pointer;
+  height: 50px;
+  margin: 1em;
+  transition: 1s;
+}
+
+.footer-logo img:hover {
+  scale: 1.2;
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 2em;
+  border-top: 1px solid #e7e7e767;
+}
