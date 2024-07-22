@@ -5,7 +5,7 @@ const Presentation = ({ developer }) => {
   return (
     <div className="presentation-container">
       <img
-        src={photo}
+        src={developer.presentation.photo ? developer.presentation.photo : photo}
         alt="portrait du développeur"
         className="presentation-image"
       />
