@@ -42,10 +42,10 @@ const Hobbies = ({developer}) => {
             <div key={index} className="hobbies-card">
               <div className="hobbies-card-title">
                 <h2>{hobby.title}</h2>
-                <img src={hobby.titleImg} alt="" className="title-img" />
+                <img src={`${process.env.PUBLIC_URL}${hobby.titleImg}`} alt="" className="title-img" />
               </div>
               <p className="hobbies-text">{hobby.description}</p>
-              <img src={hobby.cardImg} alt="" className="card-img" />
+              <img src={`${process.env.PUBLIC_URL}${hobby.cardImg}`} alt="" className="card-img" />
             </div>
           ))}
         </Slider>
