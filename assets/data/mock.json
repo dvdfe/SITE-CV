@@ -1,0 +1,57 @@
+{
+  "developer": {
+    "name": "David",
+    "skills": [
+      "HTML, ",
+      "CSS, ",
+      "SCSS, ",
+      "Javascript, ",
+      "React.js, ",
+      "React Native, ",
+      "Redux, ",
+      "Vue.js, ",
+      "Node.js, ",
+      "Express, ",
+      "MongoDB, ",
+      "Github."
+    ],
+    "presentation": 
+      {
+        "photo": "/assets/images/image_presentation_site_cv.webp",
+        "description": "Ce site est l'une de mes créations et a pour but de vous offrir un aperçu de mes compétences. J'ai choisi de le développer en React.js, un framework que j'apprécie particulièrement. J'ai utilisé divers hooks pour gérer l'état et les effets de manière efficace. Pour le style, j'ai opté pour une combinaison de CSS et de JavaScript. Les données de certaines sections sont récupérées de la même manière que lors d'un appel à une API avec un fichier JSON que j'ai également créé, démontrant ainsi ma maîtrise des techniques de récupération et de gestion des données. Vous pouvez trouver le code source de mon site sur mon GitHub. Je suis passionné par le développement et j'aime relever de nouveaux défis techniques. Mon objectif est de toujours améliorer mes compétences et de contribuer de manière significative à des projets innovants. Actuellement, je suis activement à la recherche d'un poste de développeur, que ce soit en front-end ou en back-end, en alternance, CDD, CDI ou participation à un POEI avant embauche. Si vous recherchez un développeur motivé, passionné et prêt à s'investir pleinement dans vos projets, n'hésitez pas à me contacter. Je suis impatient de pouvoir discuter de la manière dont je pourrais contribuer à votre équipe."
+      },
+   
+    "hobbies": [
+      {
+        "title": "Le sport",
+        "titleImg": "/assets/logos/arts-martiaux-uniformes.png",
+        "description": "Le sport a toujours été une partie intégrante de ma vie. Je prends plaisir à pratiquer divers sports, qu'ils soient collectifs ou individuels. Toutefois, j'ai une préférence marquée pour les arts martiaux, que j'ai pratiqués pendant 10 ans et où j'ai obtenu un titre de champion régional. Ce que j'apprécie particulièrement dans les arts martiaux, c'est l'apprentissage et la complexité des techniques, mais aussi le fait qu'ils représentent une excellente école de vie. J'y ai appris le respect, la fraternité, l'humilité et le partage, ainsi que des valeurs essentielles telles que la discipline, la patience, la concentration, le contrôle de soi et la gestion du stress. Les arts martiaux m'ont également inculqué la confiance en soi, le courage, l'empathie et une hygiène de vie saine. Parmi mes arts martiaux de prédilection figurent le MMA, la boxe thaï, le grappling et le full contact.",
+        "cardImg": "/assets/images/sport.webp"
+      },
+      {
+        "title": "Le cinéma",
+        "titleImg": "/assets/logos/clap.png",
+        "description": "Depuis mon plus jeune âge, le cinéma a été une source d'inspiration et de divertissement. J'apprécie particulièrement les films qui explorent des thèmes profonds et captivants. En tant que cinéphile, je suis passionné par les réalisateurs visionnaires et les scénarios qui défient les conventions, comme ceux de Christopher Nolan. J'apprécie également les films et séries au ton plus léger, mais je suis exigeant quant à la qualité des dialogues, du scénario, la complexité des personnages et la vision que le réalisteur veut mettre en évidence. Pour moi, il est essentiel qu'une œuvre conserve une certaine cohérence. Les films avec des voitures défiant la gravité grâce à de la nitro et une boîte à 12 vitesses ne sont pas vraiment mon style *hum hum*. Chaque film que je regarde me fait rêver ou enrichit ma perspective sur la vie.",
+        "cardImg": "/assets/images/STARWARS.webp"
+      },
+      {
+        "title": "L'Esport",
+        "titleImg": "/assets/logos/jeux.png",
+        "description": "L'eSport représente pour moi une fusion passionnante entre la compétition et la technologie. J'ai découvert cet univers fascinant en jouant à des jeux vidéo populaires où la stratégie et la précision sont essentielles. J'ai toujours été attiré par les jeux PvP pour la stimulation et la compétitivité. J'ai commencé avec Call of Duty et ensuite j'ai découvert l'enfer... League of Legends même en y ayant laissé une partie de mon âme j'ai jamais été très bon dû à mes nombreuses et longues pauses pour évité la démence, j'ai été classé platine. J'ai également été un joueur Apex Legends, j'ai été classé Master plusieurs fois. J'aime aussi beaucoup les mmorpg, j'ai joué à dofus quand j'étais plus plus jeune et beaucoup à World of Warcraft *rogue forever*.",
+        "cardImg": "/assets/images/esport.webp"
+      },
+      {
+        "title": "L'art",
+        "titleImg": "/assets/logos/art.png",
+        "description": "L'art m'inspire depuis mon enfance. Que ce soit la sculpture, la peinture et le dessin, la musique, la littérature ou la poésie, chaque forme artistique stimule mes sens et éveille en moi des émotions intimes et profondes. Je pense que l'art, sous toutes ses formes, est une source inépuisable d'inspiration et de réflexion. Et bien que je ne sois pas un très grand artiste moi-même, j'adore contempler les œuvres des maîtres, savourer chaque détail et me laisser emporter par leur génie créatif. L'art a cette capacité unique de transcender le temps et l'espace, nous connectant à des époques et à des cultures différentes. C'est un moyen pour moi de m'évader, de rêver et de découvrir de nouvelles perspectives.",
+        "cardImg": "/assets/images/art.webp"
+      },
+      {
+        "title": "La vidéographie et la photographie",
+        "titleImg": "/assets/logos/appareil-photo-pour-prendre-des-photos.png",
+        "description": "Armé de mon drone et mon appareil photo, la vidéographie cinématique et la photographie sont deux activités qui m'envoûtent. Capturer des moments, jouer avec la lumière et créer des compositions qui racontent des histoires me procure une immense satisfaction. J'adore explorer des perspectives uniques et transformer l'ordinaire en extraordinaire. La vidéographie me permet de créer des récits visuels captivants, tandis que la photographie me permet d'immortaliser des instants fugaces. J'aime capturer la beauté du monde, qu'il s'agisse de paysages époustouflants ou de portraits expressifs. En fin de compte, que ce soit en mouvement ou en image fixe, ces deux arts sont des moyens puissants pour exprimer ma vision du monde et partager des histoires.",
+        "cardImg": "/assets/images/appareil_photo.webp"
+      }
+    ]
+  }
+}
