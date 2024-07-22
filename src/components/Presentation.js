@@ -1,10 +1,11 @@
 import React from "react";
+import photo from "../assets/images/image_presentation_site_cv.webp"
 
 const Presentation = ({ developer }) => {
   return (
     <div className="presentation-container">
       <img
-        src={developer.presentation.photo}
+        src={developer.presentation.photo ? developer.presentation.photo : photo}
         alt="portrait du développeur"
         className="presentation-image"
       />
