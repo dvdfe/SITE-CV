@@ -2,7 +2,7 @@
   "name": "site_cv",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://dvdfe.github.io/SITE-CV-DEV",
+  "homepage":"https://dvdfe.github.io/site-cv-developpeur",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
