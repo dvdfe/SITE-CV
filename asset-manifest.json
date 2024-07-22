@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/SITE-CV-DEV/static/css/main.97a26b30.css",
-    "main.js": "/SITE-CV-DEV/static/js/main.541e3d3a.js",
-    "static/media/image_presentation_site_cv.webp": "/SITE-CV-DEV/static/media/image_presentation_site_cv.0e3edbacd945c4d7eed3.webp",
+    "main.js": "/SITE-CV-DEV/static/js/main.9beb8fea.js",
     "static/media/negociation.png": "/SITE-CV-DEV/static/media/negociation.a4a65832c9694d26ff18.png",
     "static/media/developpement-web.png": "/SITE-CV-DEV/static/media/developpement-web.29570bf8743181c71d63.png",
     "static/media/management.png": "/SITE-CV-DEV/static/media/management.cc4ed71522de1df9ac65.png",
@@ -14,10 +13,10 @@
     "static/media/slick.woff": "/SITE-CV-DEV/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SITE-CV-DEV/index.html",
     "main.97a26b30.css.map": "/SITE-CV-DEV/static/css/main.97a26b30.css.map",
-    "main.541e3d3a.js.map": "/SITE-CV-DEV/static/js/main.541e3d3a.js.map"
+    "main.9beb8fea.js.map": "/SITE-CV-DEV/static/js/main.9beb8fea.js.map"
   },
   "entrypoints": [
     "static/css/main.97a26b30.css",
-    "static/js/main.541e3d3a.js"
+    "static/js/main.9beb8fea.js"
   ]
 }
