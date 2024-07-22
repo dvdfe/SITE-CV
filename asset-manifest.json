@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SITE-CV-DEV/static/css/main.97a26b30.css",
-    "main.js": "/SITE-CV-DEV/static/js/main.9beb8fea.js",
-    "static/media/negociation.png": "/SITE-CV-DEV/static/media/negociation.a4a65832c9694d26ff18.png",
-    "static/media/developpement-web.png": "/SITE-CV-DEV/static/media/developpement-web.29570bf8743181c71d63.png",
-    "static/media/management.png": "/SITE-CV-DEV/static/media/management.cc4ed71522de1df9ac65.png",
-    "static/media/github.png": "/SITE-CV-DEV/static/media/github.f11021803f68852df283.png",
-    "static/media/linkedin.png": "/SITE-CV-DEV/static/media/linkedin.f249b38224ca41a0b909.png",
-    "static/media/slick.svg": "/SITE-CV-DEV/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/SITE-CV-DEV/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/SITE-CV-DEV/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/SITE-CV-DEV/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/SITE-CV-DEV/index.html",
-    "main.97a26b30.css.map": "/SITE-CV-DEV/static/css/main.97a26b30.css.map",
-    "main.9beb8fea.js.map": "/SITE-CV-DEV/static/js/main.9beb8fea.js.map"
+    "main.css": "/site-cv-developpeur/static/css/main.19669922.css",
+    "main.js": "/site-cv-developpeur/static/js/main.d3776eb1.js",
+    "static/media/negociation.png": "/site-cv-developpeur/static/media/negociation.a4a65832c9694d26ff18.png",
+    "static/media/developpement-web.png": "/site-cv-developpeur/static/media/developpement-web.29570bf8743181c71d63.png",
+    "static/media/management.png": "/site-cv-developpeur/static/media/management.cc4ed71522de1df9ac65.png",
+    "static/media/github.png": "/site-cv-developpeur/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/site-cv-developpeur/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/slick.svg": "/site-cv-developpeur/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/site-cv-developpeur/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/site-cv-developpeur/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/site-cv-developpeur/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/site-cv-developpeur/index.html",
+    "main.19669922.css.map": "/site-cv-developpeur/static/css/main.19669922.css.map",
+    "main.d3776eb1.js.map": "/site-cv-developpeur/static/js/main.d3776eb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.97a26b30.css",
-    "static/js/main.9beb8fea.js"
+    "static/css/main.19669922.css",
+    "static/js/main.d3776eb1.js"
   ]
 }
