@@ -1,1 +1,11 @@
-Ce site est l'une de mes créations et a pour but de vous offrir un aperçu de mes compétences. J'ai choisi de le développer en React.js, un framework que j'apprécie particulièrement. J'ai utilisé divers hooks pour gérer l'état et les effets de manière efficace. Pour le style, j'ai opté pour une combinaison de CSS et de JavaScript. Les données de certaines sections sont récupérées de la même manière que lors d'un appel à une API avec un fichier JSON que j'ai également créé, démontrant ainsi ma maîtrise des techniques de récupération et de gestion des données.
+Mon site CV développeur
+Description
+Ce projet est un site web qui sert de CV interactif et de lettre de motivation. Il présente mes compétences, mes expériences et mes centres d'intérêt de manière dynamique et engageante. J'ai développé ce site en utilisant React.js, en mettant en œuvre diverses fonctionnalités et techniques modernes du développement web.
+
+Technologies utilisées
+React.js : Pour la création de l'interface utilisateur.
+JavaScript : Pour la logique de programmation.
+CSS : Pour le style et la mise en page.
+HTML : Pour la structure du contenu.
+JSON : Pour stocker et récupérer les données dynamiques du site.
+GitHub Pages : Pour héberger et déployer le site.
