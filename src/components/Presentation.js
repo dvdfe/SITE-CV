@@ -47,7 +47,7 @@ const Presentation = ({ developer }) => {
           ouvert à l'apprentissage d'un autre langage si besoin.
         </p>
         <button className="presentation-content-button">
-          <a href="/CV David François-Eugène.pdf" download className="cv-link">
+          <a href="/CV David François-Eugène dev.pdf" download className="cv-link">
             Télécharger le CV
           </a>
         </button>
